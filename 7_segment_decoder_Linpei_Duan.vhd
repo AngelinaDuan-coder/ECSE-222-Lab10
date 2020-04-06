@@ -7,7 +7,7 @@ entity A7_segment_decoder is
 				segments_out	: out std_logic_vector(6 downto 0));
 		end A7_segment_decoder;
 		
-architecture decoder of 7_segment_decoder is
+architecture decoder of A7_segment_decoder is
 begin
 WITH code SELECT
 segments_out <=
